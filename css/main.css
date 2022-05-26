@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: #eaebed;
+}
+a{
+    color: inherit;
+}
+header,main{
+    padding: 0px 21% 0px 7%;
+}
+header{
+    background-color: #4167b2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:8px;
+    padding-bottom:8px;
+    color: white;
+}
+header>div{
+    font-size: 2.1em;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+header input{
+    width: 50%;
+    font-size: 0.5em;
+    border-radius: 3px;
+    border: 1px solid #c4cde1;
+    margin-left: 10px;
+    color: #7e848b;
+    padding: 5px;
+}
+header>div::after{
+    content: '\f002';
+    font:normal normal normal 14px/1 FontAwesome;
+    color:#636b77;
+    background: #f5f6f7;
+    position: relative;
+    left: -38px;
+    padding: 8px 12px;
+}
+header ul{
+    display: flex;
+}
+header li{
+    display: block;
+    padding:0px 20px;
+    border-right: 1px solid #3c5fa6;
+}
+header li:last-child{
+    border: 0px;
+}
+header li button{
+    background: unset;
+    border: 0px;
+    color: #1a2947;
+}
+/* 
+-----------------------main-----------------------
+*/
+main{
+    display: flex;
+    margin-top: 10px;
+}
+
+.img-post{
+    width: 100%;
+}
+
+
+/*
+--------------------- aside left
+*/
+.aside-left{
+    width:200px;
+}
+.aside-left>div:first-child{
+    display: flex;
+    align-items: center;
+}
+.aside-left .news-feed{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.aside-left li{
+    display: block;
+}
+/*
+--------------------- section
+*/
+main section{
+    flex: 1;
+}
+.create-post{
+    border: 1px solid #dfe0e2;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.create-post h3{
+    background-color: #f5f6f7;
+    color: #4e5159;
+    padding: 8px;
+    font-size: 1em;
+    border-bottom: 1px solid #e5e6e7;
+}
+.create-post>div{
+    background: white;
+    padding: 10px;
+}
+.create-post>div>div:first-child{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #edeef0;
+
+}
+.create-post img{
+ border-radius: 50%;
+}
+.create-post input{
+    flex: 1;
+    color: #989aa2;
+    align-self: stretch;
+    border: 0px;
+    margin-left: 10px;
+}
+.create-post>div>div:last-child{
+    padding-top: 10px;
+
+}
+.create-post button{
+    border: 0px;
+    background: #f5f6f7;
+    padding: 5px 10px;
+    color: #555860;
+    border-radius: 20px;
+    font-size: 0.7em;
+}
+section article{
+    background: white;
+}
+section .header-article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+section .header-article button{
+    border: 0px;
+    background: unset;
+    align-self: flex-start;
+}
+section .header-article img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+section .header-article>div{
+    display: flex;
+    align-items: center;
+}
+section .header-article h3{
+    color: #4e6aa4;
+    font-size: 1em;
+}
+section .header-article p{
+    color: #6c7075;
+    font-size: 0.8em;
+}
+section .content p{
+    margin: 0px 0px 10px 10px;
+    color:#373941;
+}
+section .footer-section{
+    padding: 10px;
+}
+section .footer-section>div:nth-child(1)
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 3px 10px 3px;
+    border-bottom: 1px solid #e3e5e7;
+}
+section .footer-section>div:nth-child(1)>a:first-child{
+    color: #468b2e;
+}
+section .footer-section>div:nth-child(1)>a:last-child{
+    color: #ef5551;
+}
+
+section .footer-section>div:nth-child(2)
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px 8px 0px;
+}
+section .footer-section button{
+    border: 0px;
+    background-color: unset;
+    color:#747a83;
+    font-weight: bold;
+
+}
+/*
+--------------------- aside right
+*/
+.aside-right{
+    width:300px;
+}
+
+.page-board>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-board li{
+    display: block;
+    flex: 1;
+}
+.page-board ul{
+    display: flex;
+    width: 100%;
+}
+.page-board>div:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aside-right li{
+    display: block;
+}
+.aside-right .langues{
+    display: flex;
+    align-items: center;
+
+}
+.aside-right .langues ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer li{
+    display: block;
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+}
